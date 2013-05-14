@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="RepVoid" targetNamespace="http://tempuri.org/RepVoid.xsd" xmlns:mstns="http://tempuri.org/RepVoid.xsd" xmlns="http://tempuri.org/RepVoid.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="lamolinventoryConnectionString" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="lamolinventoryConnectionString (Settings)" PropertyReference="ApplicationSettings.Payroll_System.Properties.Settings.GlobalReference.Default.lamolinventoryConnectionString" Provider="System.Data.OleDb">
+          </Connection>
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="voidtableTableAdapter" GeneratorDataComponentClassName="voidtableTableAdapter" Name="voidtable" UserDataComponentName="voidtableTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="lamolinventoryConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="False" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="False" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="True">
+                    <CommandText>SELECT        voidtable.trans_item_id, voidtable.item_name, voidtable.quanvoid, voidtable.time_void, voidtable.type, itemlist.supp, itemlist.categ, logs.[names], logs.connum, 
+                         logs.eadd, logs.addr, trans_items.trans_id
+FROM            ((voidtable INNER JOIN
+                         trans_items ON voidtable.trans_item_id = trans_items.trans_item_id) INNER JOIN
+                         itemlist ON trans_items.item_name = itemlist.item_name), logs</CommandText>
+                    <Parameters>
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="trans_id" DataSetColumn="trans_id" />
+              <Mapping SourceColumn="trans_item_id" DataSetColumn="trans_item_id" />
+              <Mapping SourceColumn="item_name" DataSetColumn="item_name" />
+              <Mapping SourceColumn="quanvoid" DataSetColumn="quanvoid" />
+              <Mapping SourceColumn="time_void" DataSetColumn="time_void" />
+              <Mapping SourceColumn="type" DataSetColumn="type" />
+              <Mapping SourceColumn="supp" DataSetColumn="supp" />
+              <Mapping SourceColumn="categ" DataSetColumn="categ" />
+              <Mapping SourceColumn="names" DataSetColumn="names" />
+              <Mapping SourceColumn="connum" DataSetColumn="connum" />
+              <Mapping SourceColumn="eadd" DataSetColumn="eadd" />
+              <Mapping SourceColumn="addr" DataSetColumn="addr" />
+            </Mappings>
+            <Sources>
+            </Sources>
+          </TableAdapter>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="RepVoid" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="RepVoid" msprop:Generator_DataSetName="RepVoid">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="voidtable" msprop:Generator_UserTableName="voidtable" msprop:Generator_RowDeletedName="voidtableRowDeleted" msprop:Generator_TableClassName="voidtableDataTable" msprop:Generator_RowChangedName="voidtableRowChanged" msprop:Generator_RowClassName="voidtableRow" msprop:Generator_RowChangingName="voidtableRowChanging" msprop:Generator_RowEvArgName="voidtableRowChangeEvent" msprop:Generator_RowEvHandlerName="voidtableRowChangeEventHandler" msprop:Generator_TablePropName="voidtable" msprop:Generator_TableVarName="tablevoidtable" msprop:Generator_RowDeletingName="voidtableRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="trans_id" msprop:Generator_UserColumnName="trans_id" msprop:Generator_ColumnPropNameInRow="trans_id" msprop:Generator_ColumnVarNameInTable="columntrans_id" msprop:Generator_ColumnPropNameInTable="trans_idColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="trans_item_id" msprop:Generator_UserColumnName="trans_item_id" msprop:Generator_ColumnPropNameInRow="trans_item_id" msprop:Generator_ColumnVarNameInTable="columntrans_item_id" msprop:Generator_ColumnPropNameInTable="trans_item_idColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="item_name" msprop:Generator_UserColumnName="item_name" msprop:Generator_ColumnPropNameInRow="item_name" msprop:Generator_ColumnVarNameInTable="columnitem_name" msprop:Generator_ColumnPropNameInTable="item_nameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="quanvoid" msprop:Generator_UserColumnName="quanvoid" msprop:Generator_ColumnPropNameInRow="quanvoid" msprop:Generator_ColumnVarNameInTable="columnquanvoid" msprop:Generator_ColumnPropNameInTable="quanvoidColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="time_void" msprop:Generator_UserColumnName="time_void" msprop:Generator_ColumnPropNameInRow="time_void" msprop:Generator_ColumnVarNameInTable="columntime_void" msprop:Generator_ColumnPropNameInTable="time_voidColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="type" msprop:Generator_UserColumnName="type" msprop:Generator_ColumnPropNameInRow="type" msprop:Generator_ColumnVarNameInTable="columntype" msprop:Generator_ColumnPropNameInTable="typeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="supp" msprop:Generator_UserColumnName="supp" msprop:Generator_ColumnPropNameInRow="supp" msprop:Generator_ColumnVarNameInTable="columnsupp" msprop:Generator_ColumnPropNameInTable="suppColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="categ" msprop:Generator_UserColumnName="categ" msprop:Generator_ColumnPropNameInRow="categ" msprop:Generator_ColumnVarNameInTable="columncateg" msprop:Generator_ColumnPropNameInTable="categColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="names" msprop:Generator_UserColumnName="names" msprop:Generator_ColumnPropNameInRow="names" msprop:Generator_ColumnVarNameInTable="columnnames" msprop:Generator_ColumnPropNameInTable="namesColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="connum" msprop:Generator_UserColumnName="connum" msprop:Generator_ColumnPropNameInRow="connum" msprop:Generator_ColumnVarNameInTable="columnconnum" msprop:Generator_ColumnPropNameInTable="connumColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="eadd" msprop:Generator_UserColumnName="eadd" msprop:Generator_ColumnPropNameInRow="eadd" msprop:Generator_ColumnVarNameInTable="columneadd" msprop:Generator_ColumnPropNameInTable="eaddColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="addr" msprop:Generator_UserColumnName="addr" msprop:Generator_ColumnPropNameInRow="addr" msprop:Generator_ColumnVarNameInTable="columnaddr" msprop:Generator_ColumnPropNameInTable="addrColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:voidtable" />
+      <xs:field xpath="mstns:trans_item_id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

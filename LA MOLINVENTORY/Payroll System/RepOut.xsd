@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="RepOut" targetNamespace="http://tempuri.org/RepOut.xsd" xmlns:mstns="http://tempuri.org/RepOut.xsd" xmlns="http://tempuri.org/RepOut.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="lamolinventoryConnectionString" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="lamolinventoryConnectionString (Settings)" PropertyReference="ApplicationSettings.Payroll_System.Properties.Settings.GlobalReference.Default.lamolinventoryConnectionString" Provider="System.Data.OleDb">
+          </Connection>
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="itemlistTableAdapter" GeneratorDataComponentClassName="itemlistTableAdapter" Name="itemlist" UserDataComponentName="itemlistTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="lamolinventoryConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="False" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="True" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="True">
+                    <CommandText>SELECT        itemlist.item_no, itemlist.item_name, itemlist.categ, itemlist.exp_date, itemlist.origprice, itemlist.srp, itemlist.unit, itemlist.quan, itemlist.supp, logs.userna, 
+                         logs.user_code, logs.[names], logs.connum, logs.eadd
+FROM            itemlist, logs</CommandText>
+                    <Parameters>
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="item_no" DataSetColumn="item_no" />
+              <Mapping SourceColumn="item_name" DataSetColumn="item_name" />
+              <Mapping SourceColumn="categ" DataSetColumn="categ" />
+              <Mapping SourceColumn="exp_date" DataSetColumn="exp_date" />
+              <Mapping SourceColumn="origprice" DataSetColumn="origprice" />
+              <Mapping SourceColumn="srp" DataSetColumn="srp" />
+              <Mapping SourceColumn="unit" DataSetColumn="unit" />
+              <Mapping SourceColumn="quan" DataSetColumn="quan" />
+              <Mapping SourceColumn="supp" DataSetColumn="supp" />
+              <Mapping SourceColumn="userna" DataSetColumn="userna" />
+              <Mapping SourceColumn="user_code" DataSetColumn="user_code" />
+              <Mapping SourceColumn="names" DataSetColumn="names" />
+              <Mapping SourceColumn="connum" DataSetColumn="connum" />
+              <Mapping SourceColumn="eadd" DataSetColumn="eadd" />
+            </Mappings>
+            <Sources>
+            </Sources>
+          </TableAdapter>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="RepOut" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="RepOut" msprop:Generator_DataSetName="RepOut">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="itemlist" msprop:Generator_UserTableName="itemlist" msprop:Generator_RowDeletedName="itemlistRowDeleted" msprop:Generator_RowChangedName="itemlistRowChanged" msprop:Generator_RowClassName="itemlistRow" msprop:Generator_RowChangingName="itemlistRowChanging" msprop:Generator_RowEvArgName="itemlistRowChangeEvent" msprop:Generator_RowEvHandlerName="itemlistRowChangeEventHandler" msprop:Generator_TableClassName="itemlistDataTable" msprop:Generator_TableVarName="tableitemlist" msprop:Generator_RowDeletingName="itemlistRowDeleting" msprop:Generator_TablePropName="itemlist">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="item_no" msprop:Generator_UserColumnName="item_no" msprop:Generator_ColumnVarNameInTable="columnitem_no" msprop:Generator_ColumnPropNameInRow="item_no" msprop:Generator_ColumnPropNameInTable="item_noColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="item_name" msprop:Generator_UserColumnName="item_name" msprop:Generator_ColumnVarNameInTable="columnitem_name" msprop:Generator_ColumnPropNameInRow="item_name" msprop:Generator_ColumnPropNameInTable="item_nameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="categ" msprop:Generator_UserColumnName="categ" msprop:Generator_ColumnVarNameInTable="columncateg" msprop:Generator_ColumnPropNameInRow="categ" msprop:Generator_ColumnPropNameInTable="categColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="exp_date" msprop:Generator_UserColumnName="exp_date" msprop:Generator_ColumnVarNameInTable="columnexp_date" msprop:Generator_ColumnPropNameInRow="exp_date" msprop:Generator_ColumnPropNameInTable="exp_dateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="origprice" msprop:Generator_UserColumnName="origprice" msprop:Generator_ColumnVarNameInTable="columnorigprice" msprop:Generator_ColumnPropNameInRow="origprice" msprop:Generator_ColumnPropNameInTable="origpriceColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="srp" msprop:Generator_UserColumnName="srp" msprop:Generator_ColumnVarNameInTable="columnsrp" msprop:Generator_ColumnPropNameInRow="srp" msprop:Generator_ColumnPropNameInTable="srpColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="unit" msprop:Generator_UserColumnName="unit" msprop:Generator_ColumnVarNameInTable="columnunit" msprop:Generator_ColumnPropNameInRow="unit" msprop:Generator_ColumnPropNameInTable="unitColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="quan" msprop:Generator_UserColumnName="quan" msprop:Generator_ColumnVarNameInTable="columnquan" msprop:Generator_ColumnPropNameInRow="quan" msprop:Generator_ColumnPropNameInTable="quanColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="supp" msprop:Generator_UserColumnName="supp" msprop:Generator_ColumnVarNameInTable="columnsupp" msprop:Generator_ColumnPropNameInRow="supp" msprop:Generator_ColumnPropNameInTable="suppColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="userna" msprop:Generator_UserColumnName="userna" msprop:Generator_ColumnPropNameInRow="userna" msprop:Generator_ColumnVarNameInTable="columnuserna" msprop:Generator_ColumnPropNameInTable="usernaColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="user_code" msprop:Generator_UserColumnName="user_code" msprop:Generator_ColumnPropNameInRow="user_code" msprop:Generator_ColumnVarNameInTable="columnuser_code" msprop:Generator_ColumnPropNameInTable="user_codeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="names" msprop:Generator_UserColumnName="names" msprop:Generator_ColumnPropNameInRow="names" msprop:Generator_ColumnVarNameInTable="columnnames" msprop:Generator_ColumnPropNameInTable="namesColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="connum" msprop:Generator_UserColumnName="connum" msprop:Generator_ColumnPropNameInRow="connum" msprop:Generator_ColumnVarNameInTable="columnconnum" msprop:Generator_ColumnPropNameInTable="connumColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="eadd" msprop:Generator_UserColumnName="eadd" msprop:Generator_ColumnPropNameInRow="eadd" msprop:Generator_ColumnVarNameInTable="columneadd" msprop:Generator_ColumnPropNameInTable="eaddColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:itemlist" />
+      <xs:field xpath="mstns:item_no" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,19 @@
+obj\Debug\Payroll System.exe
+obj\Debug\Payroll System.pdb
+bin\Debug\Payroll System.exe
+bin\Debug\Payroll System.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Payroll_System.About.resources
+obj\Debug\Payroll_System.Employee.resources
+obj\Debug\Payroll_System.EmployeeList.resources
+obj\Debug\Payroll_System.EmployeeOverview.resources
+obj\Debug\Payroll_System.Form1.resources
+obj\Debug\Payroll_System.Introductory.resources
+obj\Debug\Payroll_System.Properties.Resources.resources
+obj\Debug\Payroll_System.Reports.resources
+obj\Debug\Payroll_System.Reset.resources
+obj\Debug\Payroll_System.Users.resources
+obj\Debug\Payroll_System.WeeklySummary.resources
+obj\Debug\Payroll_System.Workpane.resources
+obj\Debug\Payroll System.csproj.GenerateResource.Cache
+obj\Debug\Payroll_System.Logs.resources

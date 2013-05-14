@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="RepItems" targetNamespace="http://tempuri.org/RepItems.xsd" xmlns:mstns="http://tempuri.org/RepItems.xsd" xmlns="http://tempuri.org/RepItems.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="lamolinventoryConnectionString" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="lamolinventoryConnectionString (Settings)" PropertyReference="ApplicationSettings.Payroll_System.Properties.Settings.GlobalReference.Default.lamolinventoryConnectionString" Provider="System.Data.OleDb">
+          </Connection>
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="totaltransTableAdapter" GeneratorDataComponentClassName="totaltransTableAdapter" Name="totaltrans" UserDataComponentName="totaltransTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="lamolinventoryConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="False" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="False" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="True">
+                    <CommandText>SELECT        totaltrans.total_trans_id, totaltrans.categ, totaltrans.item_name, totaltrans.quan, totaltrans.time_sum, totaltrans.item_id, totaltrans.sum_amount, totaltrans.typex, 
+                         logs.userna, logs.[names], logs.addr, logs.connum, logs.eadd, itemlist.oprice, itemlist.unit, itemlist.srp
+FROM            (totaltrans INNER JOIN
+                         itemlist ON totaltrans.item_id = itemlist.item_no), logs</CommandText>
+                    <Parameters>
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="total_trans_id" DataSetColumn="total_trans_id" />
+              <Mapping SourceColumn="categ" DataSetColumn="categ" />
+              <Mapping SourceColumn="item_name" DataSetColumn="item_name" />
+              <Mapping SourceColumn="quan" DataSetColumn="quan" />
+              <Mapping SourceColumn="time_sum" DataSetColumn="time_sum" />
+              <Mapping SourceColumn="item_id" DataSetColumn="item_id" />
+              <Mapping SourceColumn="sum_amount" DataSetColumn="sum_amount" />
+              <Mapping SourceColumn="typex" DataSetColumn="typex" />
+              <Mapping SourceColumn="userna" DataSetColumn="userna" />
+              <Mapping SourceColumn="names" DataSetColumn="names" />
+              <Mapping SourceColumn="addr" DataSetColumn="addr" />
+              <Mapping SourceColumn="connum" DataSetColumn="connum" />
+              <Mapping SourceColumn="eadd" DataSetColumn="eadd" />
+              <Mapping SourceColumn="oprice" DataSetColumn="oprice" />
+              <Mapping SourceColumn="unit" DataSetColumn="unit" />
+              <Mapping SourceColumn="srp" DataSetColumn="srp" />
+            </Mappings>
+            <Sources>
+            </Sources>
+          </TableAdapter>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="RepItems" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="RepItems" msprop:Generator_DataSetName="RepItems">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="totaltrans" msprop:Generator_UserTableName="totaltrans" msprop:Generator_RowDeletedName="totaltransRowDeleted" msprop:Generator_RowChangedName="totaltransRowChanged" msprop:Generator_RowClassName="totaltransRow" msprop:Generator_RowChangingName="totaltransRowChanging" msprop:Generator_RowEvArgName="totaltransRowChangeEvent" msprop:Generator_RowEvHandlerName="totaltransRowChangeEventHandler" msprop:Generator_TableClassName="totaltransDataTable" msprop:Generator_TableVarName="tabletotaltrans" msprop:Generator_RowDeletingName="totaltransRowDeleting" msprop:Generator_TablePropName="totaltrans">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="total_trans_id" msprop:Generator_UserColumnName="total_trans_id" msprop:Generator_ColumnVarNameInTable="columntotal_trans_id" msprop:Generator_ColumnPropNameInRow="total_trans_id" msprop:Generator_ColumnPropNameInTable="total_trans_idColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="categ" msprop:Generator_UserColumnName="categ" msprop:Generator_ColumnVarNameInTable="columncateg" msprop:Generator_ColumnPropNameInRow="categ" msprop:Generator_ColumnPropNameInTable="categColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="item_name" msprop:Generator_UserColumnName="item_name" msprop:Generator_ColumnVarNameInTable="columnitem_name" msprop:Generator_ColumnPropNameInRow="item_name" msprop:Generator_ColumnPropNameInTable="item_nameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="quan" msprop:Generator_UserColumnName="quan" msprop:Generator_ColumnVarNameInTable="columnquan" msprop:Generator_ColumnPropNameInRow="quan" msprop:Generator_ColumnPropNameInTable="quanColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="time_sum" msprop:Generator_UserColumnName="time_sum" msprop:Generator_ColumnVarNameInTable="columntime_sum" msprop:Generator_ColumnPropNameInRow="time_sum" msprop:Generator_ColumnPropNameInTable="time_sumColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="item_id" msprop:Generator_UserColumnName="item_id" msprop:Generator_ColumnVarNameInTable="columnitem_id" msprop:Generator_ColumnPropNameInRow="item_id" msprop:Generator_ColumnPropNameInTable="item_idColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="sum_amount" msprop:Generator_UserColumnName="sum_amount" msprop:Generator_ColumnVarNameInTable="columnsum_amount" msprop:Generator_ColumnPropNameInRow="sum_amount" msprop:Generator_ColumnPropNameInTable="sum_amountColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="typex" msprop:Generator_UserColumnName="typex" msprop:Generator_ColumnVarNameInTable="columntypex" msprop:Generator_ColumnPropNameInRow="typex" msprop:Generator_ColumnPropNameInTable="typexColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="userna" msprop:Generator_UserColumnName="userna" msprop:Generator_ColumnVarNameInTable="columnuserna" msprop:Generator_ColumnPropNameInRow="userna" msprop:Generator_ColumnPropNameInTable="usernaColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="names" msprop:Generator_UserColumnName="names" msprop:Generator_ColumnVarNameInTable="columnnames" msprop:Generator_ColumnPropNameInRow="names" msprop:Generator_ColumnPropNameInTable="namesColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="addr" msprop:Generator_UserColumnName="addr" msprop:Generator_ColumnVarNameInTable="columnaddr" msprop:Generator_ColumnPropNameInRow="addr" msprop:Generator_ColumnPropNameInTable="addrColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="connum" msprop:Generator_UserColumnName="connum" msprop:Generator_ColumnVarNameInTable="columnconnum" msprop:Generator_ColumnPropNameInRow="connum" msprop:Generator_ColumnPropNameInTable="connumColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="eadd" msprop:Generator_UserColumnName="eadd" msprop:Generator_ColumnVarNameInTable="columneadd" msprop:Generator_ColumnPropNameInRow="eadd" msprop:Generator_ColumnPropNameInTable="eaddColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="oprice" msprop:Generator_UserColumnName="oprice" msprop:Generator_ColumnPropNameInRow="oprice" msprop:Generator_ColumnVarNameInTable="columnoprice" msprop:Generator_ColumnPropNameInTable="opriceColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="unit" msprop:Generator_UserColumnName="unit" msprop:Generator_ColumnPropNameInRow="unit" msprop:Generator_ColumnVarNameInTable="columnunit" msprop:Generator_ColumnPropNameInTable="unitColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="srp" msprop:Generator_UserColumnName="srp" msprop:Generator_ColumnPropNameInRow="srp" msprop:Generator_ColumnVarNameInTable="columnsrp" msprop:Generator_ColumnPropNameInTable="srpColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:totaltrans" />
+      <xs:field xpath="mstns:total_trans_id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

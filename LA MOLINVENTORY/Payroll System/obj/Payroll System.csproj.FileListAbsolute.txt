@@ -1,0 +1,163 @@
+C:\Users\Syara\Desktop\Payroll System\Payroll System\bin\Debug\Payroll System.exe
+C:\Users\Syara\Desktop\Payroll System\Payroll System\bin\Debug\Payroll System.pdb
+C:\Users\Syara\Desktop\Payroll System\Payroll System\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Syara\Desktop\Payroll System\Payroll System\obj\Debug\Payroll_System.Form1.resources
+C:\Users\Syara\Desktop\Payroll System\Payroll System\obj\Debug\Payroll_System.Properties.Resources.resources
+C:\Users\Syara\Desktop\Payroll System\Payroll System\obj\Debug\Payroll System.csproj.GenerateResource.Cache
+C:\Users\Syara\Desktop\Payroll System\Payroll System\obj\Debug\Payroll System.exe
+C:\Users\Syara\Desktop\Payroll System\Payroll System\obj\Debug\Payroll System.pdb
+C:\Users\Syara\Desktop\Payroll System\Payroll System\obj\Debug\Payroll_System.Introductory.resources
+C:\Users\Syara\Desktop\Payroll System\Payroll System\obj\Debug\Payroll_System.Workpane.resources
+C:\Users\Syara\Desktop\Payroll System\Payroll System\obj\Debug\Payroll_System.Employee.resources
+C:\Users\Syara\Desktop\Payroll System\Payroll System\obj\Debug\Payroll_System.Users.resources
+C:\Users\Syara\Desktop\Payroll System\Payroll System\obj\Debug\Payroll_System.EmployeeList.resources
+C:\Users\Syara\Desktop\Payroll System\Payroll System\obj\Debug\Payroll_System.WeeklySummary.resources
+C:\Users\Syara\Desktop\Payroll System\Payroll System\obj\Debug\Payroll_System.Reset.resources
+C:\Users\Syara\Desktop\Payroll System\Payroll System\obj\Debug\Payroll_System.About.resources
+C:\Users\Syara\Desktop\Payroll System\Payroll System\obj\Debug\Payroll_System.Reports.resources
+C:\Users\Syara\Desktop\Payroll System\Payroll System\bin\Debug\MySql.Data.dll
+C:\Users\Syara\Desktop\Payroll System\Payroll System\obj\Debug\Payroll_System.EmployeeOverview.resources
+C:\Users\Syara\Desktop\LA MOLI\Payroll System\obj\Debug\Payroll System.exe
+C:\Users\Syara\Desktop\LA MOLI\Payroll System\obj\Debug\Payroll System.pdb
+C:\Users\Syara\Desktop\LA MOLI\Payroll System\bin\Debug\Payroll System.exe
+C:\Users\Syara\Desktop\LA MOLI\Payroll System\bin\Debug\Payroll System.pdb
+C:\Users\Syara\Desktop\LA MOLI\Payroll System\bin\Debug\MySql.Data.dll
+C:\Users\Syara\Desktop\LA MOLI\Payroll System\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Syara\Desktop\LA MOLI\Payroll System\obj\Debug\Payroll_System.About.resources
+C:\Users\Syara\Desktop\LA MOLI\Payroll System\obj\Debug\Payroll_System.Employee.resources
+C:\Users\Syara\Desktop\LA MOLI\Payroll System\obj\Debug\Payroll_System.EmployeeList.resources
+C:\Users\Syara\Desktop\LA MOLI\Payroll System\obj\Debug\Payroll_System.EmployeeOverview.resources
+C:\Users\Syara\Desktop\LA MOLI\Payroll System\obj\Debug\Payroll_System.Form1.resources
+C:\Users\Syara\Desktop\LA MOLI\Payroll System\obj\Debug\Payroll_System.Introductory.resources
+C:\Users\Syara\Desktop\LA MOLI\Payroll System\obj\Debug\Payroll_System.Logs.resources
+C:\Users\Syara\Desktop\LA MOLI\Payroll System\obj\Debug\Payroll_System.Properties.Resources.resources
+C:\Users\Syara\Desktop\LA MOLI\Payroll System\obj\Debug\Payroll_System.Reports.resources
+C:\Users\Syara\Desktop\LA MOLI\Payroll System\obj\Debug\Payroll_System.Reset.resources
+C:\Users\Syara\Desktop\LA MOLI\Payroll System\obj\Debug\Payroll_System.Users.resources
+C:\Users\Syara\Desktop\LA MOLI\Payroll System\obj\Debug\Payroll_System.WeeklySummary.resources
+C:\Users\Syara\Desktop\LA MOLI\Payroll System\obj\Debug\Payroll_System.Workpane.resources
+C:\Users\Syara\Desktop\LA MOLI\Payroll System\obj\Debug\Payroll System.csproj.GenerateResource.Cache
+C:\Users\Syara\Desktop\LA MOLI\Payroll System\obj\Debug\Payroll_System.Items.resources
+F:\Syd Files\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll System.exe
+F:\Syd Files\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll System.pdb
+F:\Syd Files\LA MOLINVENTORY\Payroll System\obj\Debug\ResolveAssemblyReference.cache
+F:\Syd Files\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.About.resources
+F:\Syd Files\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.Employee.resources
+F:\Syd Files\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.EmployeeList.resources
+F:\Syd Files\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.EmployeeOverview.resources
+F:\Syd Files\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.Form1.resources
+F:\Syd Files\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.Introductory.resources
+F:\Syd Files\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.Items.resources
+F:\Syd Files\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.Logs.resources
+F:\Syd Files\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.Properties.Resources.resources
+F:\Syd Files\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.Reports.resources
+F:\Syd Files\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.Reset.resources
+F:\Syd Files\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.Users.resources
+F:\Syd Files\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.WeeklySummary.resources
+F:\Syd Files\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.Workpane.resources
+F:\Syd Files\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll System.csproj.GenerateResource.Cache
+F:\Syd Files\LA MOLINVENTORY\Payroll System\bin\Debug\Payroll System.exe
+F:\Syd Files\LA MOLINVENTORY\Payroll System\bin\Debug\Payroll System.pdb
+C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\S\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll System.exe
+C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\S\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll System.pdb
+C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\S\LA MOLINVENTORY\Payroll System\bin\Debug\lamolinventory.mdb
+C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\S\LA MOLINVENTORY\Payroll System\bin\Debug\Payroll System.exe.config
+C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\S\LA MOLINVENTORY\Payroll System\bin\Debug\Payroll System.exe
+C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\S\LA MOLINVENTORY\Payroll System\bin\Debug\Payroll System.pdb
+C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\S\LA MOLINVENTORY\Payroll System\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\S\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.About.resources
+C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\S\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.Employee.resources
+C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\S\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.EmployeeList.resources
+C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\S\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.EmployeeOverview.resources
+C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\S\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.Form1.resources
+C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\S\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.Introductory.resources
+C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\S\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.Items.resources
+C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\S\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.Logs.resources
+C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\S\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.Properties.Resources.resources
+C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\S\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.Reports.resources
+C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\S\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.Reset.resources
+C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\S\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.Users.resources
+C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\S\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.WeeklySummary.resources
+C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\S\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.Workpane.resources
+C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\S\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll System.csproj.GenerateResource.Cache
+C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\S\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.Categories.resources
+C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\LA MOLINVENTORY\Payroll System\bin\Debug\lamolinventory.mdb
+C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll System.csproj.GenerateResource.Cache
+C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.About.resources
+C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.Admin.resources
+C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.Barcodes.resources
+C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.Categories.resources
+C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.Employee.resources
+C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.EmployeeList.resources
+C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.EmployeeOverview.resources
+C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.Form1.resources
+C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.Introductory.resources
+C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.Logs.resources
+C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.Properties.Resources.resources
+C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.ReceiptForm.resources
+C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.Reports.resources
+C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.Reset.resources
+C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.Stocks.resources
+C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.Suppliers.resources
+C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.TransactionsForm.resources
+C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.Users.resources
+C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.WeeklySummary.resources
+C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.Workpane.resources
+C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.SupSup.resources
+C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.Quantity.resources
+C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.FrmBcode.resources
+C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.Voids.resources
+C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.Form2.resources
+C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.Items.resources
+C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.Warning.resources
+C:\Users\Lhezz\Desktop\LA MOLINVENTORY\Payroll System\bin\Debug\Payroll System.exe.config
+C:\Users\Lhezz\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll System.exe
+C:\Users\Lhezz\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll System.pdb
+C:\Users\Lhezz\Desktop\LA MOLINVENTORY\Payroll System\bin\Debug\lamolinventory.mdb
+C:\Users\Lhezz\Desktop\LA MOLINVENTORY\Payroll System\bin\Debug\Payroll System.exe.manifest
+C:\Users\Lhezz\Desktop\LA MOLINVENTORY\Payroll System\bin\Debug\Payroll System.application
+C:\Users\Lhezz\Desktop\LA MOLINVENTORY\Payroll System\bin\Debug\Payroll System.exe
+C:\Users\Lhezz\Desktop\LA MOLINVENTORY\Payroll System\bin\Debug\Payroll System.pdb
+C:\Users\Lhezz\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Lhezz\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.About.resources
+C:\Users\Lhezz\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.Admin.resources
+C:\Users\Lhezz\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.Barcodes.resources
+C:\Users\Lhezz\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.Categories.resources
+C:\Users\Lhezz\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.Employee.resources
+C:\Users\Lhezz\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.EmployeeList.resources
+C:\Users\Lhezz\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.EmployeeOverview.resources
+C:\Users\Lhezz\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.Form1.resources
+C:\Users\Lhezz\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.Form2.resources
+C:\Users\Lhezz\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.FrmBcode.resources
+C:\Users\Lhezz\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.Introductory.resources
+C:\Users\Lhezz\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.Items.resources
+C:\Users\Lhezz\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.Logs.resources
+C:\Users\Lhezz\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.Properties.Resources.resources
+C:\Users\Lhezz\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.Quantity.resources
+C:\Users\Lhezz\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.ReceiptForm.resources
+C:\Users\Lhezz\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.Reports.resources
+C:\Users\Lhezz\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.Reset.resources
+C:\Users\Lhezz\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.Stocks.resources
+C:\Users\Lhezz\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.Suppliers.resources
+C:\Users\Lhezz\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.SupSup.resources
+C:\Users\Lhezz\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.TransactionsForm.resources
+C:\Users\Lhezz\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.Users.resources
+C:\Users\Lhezz\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.Voids.resources
+C:\Users\Lhezz\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.Warning.resources
+C:\Users\Lhezz\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.WeeklySummary.resources
+C:\Users\Lhezz\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.Workpane.resources
+C:\Users\Lhezz\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll System.csproj.GenerateResource.Cache
+C:\Users\Lhezz\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll System.exe.manifest
+C:\Users\Lhezz\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll System.application
+C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.Unit.resources
+C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Payroll_System.Remaining.resources
+C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\LA MOLINVENTORY\Payroll System\bin\Debug\Blue and Silver shoppe.exe.config
+C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\LA MOLINVENTORY\Payroll System\bin\Debug\Blue and Silver shoppe.exe.manifest
+C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\LA MOLINVENTORY\Payroll System\bin\Debug\Blue and Silver shoppe.application
+C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\LA MOLINVENTORY\Payroll System\bin\Debug\Blue and Silver shoppe.exe
+C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\LA MOLINVENTORY\Payroll System\bin\Debug\Blue and Silver shoppe.pdb
+C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Blue and Silver shoppe.exe.manifest
+C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Blue and Silver shoppe.application
+C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Blue and Silver shoppe.exe
+C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\LA MOLINVENTORY\Payroll System\obj\Debug\Blue and Silver shoppe.pdb

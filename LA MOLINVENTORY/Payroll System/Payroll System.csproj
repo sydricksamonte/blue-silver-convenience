@@ -1,0 +1,538 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AA1D6CED-D161-4EAB-A676-A042D214E163}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Payroll_System</RootNamespace>
+    <AssemblyName>Blue and Silver shoppe</AssemblyName>
+    <ApplicationIcon>Sys Icon.ico</ApplicationIcon>
+    <ManifestCertificateThumbprint>B47E6566B0A085CA319A7E5429BED59A9E34CF80</ManifestCertificateThumbprint>
+    <ManifestKeyFile>Payroll System_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>true</SignManifests>
+    <PublishUrl>C:\Users\Rachel\Downloads\Pictures\Pictures\Pictures\PICTURE\APRIL112010\EDITED\Desktop\B &amp; S\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <CreateWebPageOnPublish>false</CreateWebPageOnPublish>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <StartupObject>Payroll_System.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="GlassButton, Version=1.3.2.29932, Culture=neutral, PublicKeyToken=2e983e6e44d23a4f" />
+    <Reference Include="MySql.Data, Version=5.1.7.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Documents\PROGS\Comprehensive exam\Comprehensive Examination System\Comprehensive Examination System\Comprehensive Examination System\bin\Debug\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Windows\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin.Designer.cs">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Barcodes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Barcodes.Designer.cs">
+      <DependentUpon>Barcodes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Categories.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Categories.Designer.cs">
+      <DependentUpon>Categories.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Employee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employee.Designer.cs">
+      <DependentUpon>Employee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeList.Designer.cs">
+      <DependentUpon>EmployeeList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeOverview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeOverview.Designer.cs">
+      <DependentUpon>EmployeeOverview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBcode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBcode.designer.cs">
+      <DependentUpon>frmBcode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Introductory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Introductory.Designer.cs">
+      <DependentUpon>Introductory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Items.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Items.Designer.cs">
+      <DependentUpon>Items.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ItemsReceipt.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ItemsReceipt.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Logs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Logs.Designer.cs">
+      <DependentUpon>Logs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="About.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Barcodes.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Barcodes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Categories.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Categories.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employee.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Employee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeList.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>EmployeeList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeOverview.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>EmployeeOverview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBcode.resx">
+      <DependentUpon>frmBcode.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Introductory.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Introductory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Items.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Items.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Logs.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Logs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Quantity.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Quantity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReceiptForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ReceiptForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Remaining.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Remaining.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Reports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reset.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Reset.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stocks.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Stocks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Suppliers.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Suppliers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SupSup.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SupSup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransactionsForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TransactionsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Unit.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Unit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Users.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Voids.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Voids.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Warning.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Warning.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WeeklySummary.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>WeeklySummary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Workpane.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Workpane.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Quantity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Quantity.Designer.cs">
+      <DependentUpon>Quantity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReceiptForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReceiptForm.Designer.cs">
+      <DependentUpon>ReceiptForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Remaining.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Remaining.Designer.cs">
+      <DependentUpon>Remaining.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RepItems.cs">
+      <DependentUpon>RepItems.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepItems.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RepItems.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports.Designer.cs">
+      <DependentUpon>Reports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RepOut.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RepOut.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RepRemain.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RepRemain.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="repsec.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>repsec.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RepTrans.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RepTrans.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RepUser.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RepUser.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RepVoid.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RepVoid.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reset.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reset.Designer.cs">
+      <DependentUpon>Reset.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Stocks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stocks.Designer.cs">
+      <DependentUpon>Stocks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Suppliers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Suppliers.Designer.cs">
+      <DependentUpon>Suppliers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SupSup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SupSup.Designer.cs">
+      <DependentUpon>SupSup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TransactionsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TransactionsForm.Designer.cs">
+      <DependentUpon>TransactionsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Unit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Unit.Designer.cs">
+      <DependentUpon>Unit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Users.Designer.cs">
+      <DependentUpon>Users.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Voids.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Voids.Designer.cs">
+      <DependentUpon>Voids.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Warning.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Warning.Designer.cs">
+      <DependentUpon>Warning.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WeeklySummary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WeeklySummary.Designer.cs">
+      <DependentUpon>WeeklySummary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Workpane.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Workpane.Designer.cs">
+      <DependentUpon>Workpane.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back-g.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="ItemsReceipt.xsc">
+      <DependentUpon>ItemsReceipt.xsd</DependentUpon>
+    </None>
+    <None Include="ItemsReceipt.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ItemsReceipt.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ItemsReceipt.xss">
+      <DependentUpon>ItemsReceipt.xsd</DependentUpon>
+    </None>
+    <None Include="Payroll System_TemporaryKey.pfx" />
+    <None Include="RepItems.xsc">
+      <DependentUpon>RepItems.xsd</DependentUpon>
+    </None>
+    <None Include="RepItems.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RepItems.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="RepItems.xss">
+      <DependentUpon>RepItems.xsd</DependentUpon>
+    </None>
+    <None Include="RepOut.xsc">
+      <DependentUpon>RepOut.xsd</DependentUpon>
+    </None>
+    <None Include="RepOut.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RepOut.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="RepOut.xss">
+      <DependentUpon>RepOut.xsd</DependentUpon>
+    </None>
+    <None Include="RepRemain.xsc">
+      <DependentUpon>RepRemain.xsd</DependentUpon>
+    </None>
+    <None Include="RepRemain.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RepRemain.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="RepRemain.xss">
+      <DependentUpon>RepRemain.xsd</DependentUpon>
+    </None>
+    <None Include="repsec.xsc">
+      <DependentUpon>repsec.xsd</DependentUpon>
+    </None>
+    <None Include="repsec.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>repsec.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="repsec.xss">
+      <DependentUpon>repsec.xsd</DependentUpon>
+    </None>
+    <None Include="RepTrans.xsc">
+      <DependentUpon>RepTrans.xsd</DependentUpon>
+    </None>
+    <None Include="RepTrans.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RepTrans.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="RepTrans.xss">
+      <DependentUpon>RepTrans.xsd</DependentUpon>
+    </None>
+    <None Include="RepUser.xsc">
+      <DependentUpon>RepUser.xsd</DependentUpon>
+    </None>
+    <None Include="RepUser.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RepUser.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="RepUser.xss">
+      <DependentUpon>RepUser.xsd</DependentUpon>
+    </None>
+    <None Include="RepVoid.xsc">
+      <DependentUpon>RepVoid.xsd</DependentUpon>
+    </None>
+    <None Include="RepVoid.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RepVoid.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="RepVoid.xss">
+      <DependentUpon>RepVoid.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\l_tabla1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="lamolinventory.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sys Icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
